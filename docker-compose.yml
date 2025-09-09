@@ -167,7 +167,7 @@ services:
       image: ghcr.io/international-data-spaces-association/dataspace-connector-ui:9.3.0
       container_name: connectorb-ui
       ports:
-        - 8084:8084
+        - 8084:8083
       environment:
         - CONNECTOR_URL=https://connectorb:8081
         - CONNECTOR_USER=admin
